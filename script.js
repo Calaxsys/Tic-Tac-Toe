@@ -1,6 +1,6 @@
 const displayController = (() => {
   const renderMessage = (message) => {
-    document.querySelector("#results-div").innerHTML = message;
+    document.querySelector("#results-display").innerHTML = message;
   }
   return {
     renderMessage

@@ -12,11 +12,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #264653;
 }
 
 h1 {
   text-align: center;
   margin: 1rem;
+  color: lightgrey;
 }
 
 #controls {
@@ -29,7 +31,7 @@ h1 {
 
 .players-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
 }
 
@@ -53,5 +55,8 @@ button {
 .square {
   width: 175px;
   height: 175px;
-  border: 1px solid black;
+  border: 5px solid black;
+  background-color: #ffffff;
+  font-size: 155px;
+  text-align: center;
 }
